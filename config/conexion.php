@@ -5,8 +5,7 @@ class Conectar{
     protected $dbh;
 
     protected function Conexion(){
-        try{
-            $conectar = $this->dbh = new PDO("mysql:local=localhost;dbname=andercode_helpdesk","root","");
+        try{$conectar = $this->dbh = new PDO("mysql:local=localhot;dbname=andercode_helpdesk","alud","ola39716842");
 
             return $conectar;
         }catch(Exception $e){
@@ -25,7 +24,3 @@ class Conectar{
 }   
 
 ?>
-"<>"
-"()"
-"{}"
-"->"

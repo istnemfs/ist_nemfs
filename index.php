@@ -31,7 +31,7 @@
                     </div>
                     <header class="sign-title">Inicia Sesión</header>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="E-Mail or Phone"/>
+                        <input type="text" class="form-control" placeholder="E-Mail"/>
                     </div>
                     <div class="form-group">
                         <input type="password" class="form-control" placeholder="Password"/>
